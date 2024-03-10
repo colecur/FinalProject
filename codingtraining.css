@@ -1,0 +1,86 @@
+* {  box-sizing: border-box; }
+body { background-color: #ffffff;
+    color: #666666;
+    font-family: Arial, Verdana, sans-serif; 
+    margin: 0; 
+    }
+    header { background-color: #ff0000af;
+        color: #c0c0c0;
+        font-family: 'Times New Roman', Times, serif; 
+        padding: 1em; }
+header a { text-decoration: none; }
+header a:link { color: #ffffff; }
+header a:visited { color: #ffffff; }
+header a:hover { color: #4c7285;}
+h1 {    color: aquamarine;
+        line-height: 300%;  
+        font-size: 1.5em;
+        text-align: center; }
+h2 {    color: darkorchid;
+        font-family: Georgia, serif; }
+h3 {    color: rgb(50, 156, 59); 
+        font-family:'Times New Roman', Times, serif}
+nav {   font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding-top: .6em;
+        padding-right: .6em;
+        padding-bottom: .6em;  
+        font-size: 1.2em; 
+    background-color: #c4c726;  }
+nav a { text-decoration: none; }
+nav a:link { color: #1100ff; }
+nav a:visited { color: #22c1ff; }
+nav a:hover { color: #a52a2a; }
+nav ul { flex-direction: column; 
+        margin: 0;
+       list-style-type: none;
+       padding-left: 0; 
+       font-weight: bold; }
+dt {    color: #002171;
+    font-weight: bold; }
+li {    font-weight: bold;
+        color: green; 
+        font-size: 1em; 
+        font-family: Georgia, 'Times New Roman', Times, serif;}
+p { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; }
+.camp {   color: #38ff53;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.5em; }
+footer  {   font-size: .70em;
+        font-style: italic;
+        text-align: center; 
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: front; 
+        background-color: #1100ff; 
+        color: yellow; }
+a {     color: yellowgreen; 
+        }
+video { float: right;
+        margin: 2em;
+        display: block; }
+#wrapper { margin-left: auto;
+        margin-right: auto; 
+        width: 80%;
+        background-color: #ffffff;
+        min-width: 960px;
+        max-width: 2048px;
+        box-shadow: 5px 5px 5px #1e1e1e; }
+form { display: grid; 
+       grid-template-columns: 10em 1fr; 
+       grid-gap: 1em;
+       width: 60%; }
+table { margin: auto; 
+        border: 1px solid #104c69; 
+        width: 90%; 
+        border-collapse: collapse; }
+td, th { padding: 5px;
+     border: 1px solid #85cc33; }
+td { text-align: center; }
+.text { text-align: left; 
+        color: #104c69; }
+tr:nth-of-type(even) { background-color: #ffb13d; }
